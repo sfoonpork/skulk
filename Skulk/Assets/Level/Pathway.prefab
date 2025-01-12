@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1208067651174021128
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7849448791061196892}
+  - component: {fileID: 1860662452545494850}
+  - component: {fileID: 1478628568556740027}
+  m_Layer: 0
+  m_Name: Pathway
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7849448791061196892
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1208067651174021128}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1860662452545494850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1208067651174021128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd71fbc33a61857489f31a83096d4864, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1478628568556740027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1208067651174021128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e49003ec83a6e9c48a288959da1d5111, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  platformPrefabs:
+  - {fileID: 4758897252403076507, guid: cda6f6c0b8e5e8b4191bc3e268423fea, type: 3}
+  - {fileID: 2847197955264081754, guid: a0ce5cd50cb76dd418e5a60e8879e282, type: 3}
+  - {fileID: 2921012459381625005, guid: 71714d2158f7a874984bf952046d0d03, type: 3}
+  - {fileID: 4713008740260336304, guid: bf419d3b2d7e6984fb23dbd9d20936cb, type: 3}
+  - {fileID: 4217155755533159305, guid: 22372e106a40528409e7db2ff4eccfae, type: 3}
+  - {fileID: 8928400166601878219, guid: d7c41318ca377b443bb01effbe2e7d9e, type: 3}
+  - {fileID: 4208304146735190066, guid: 1f0dc9c05706ea5488de44deb09d5465, type: 3}
+  - {fileID: 7842215445912809642, guid: 9b2b03e8f00dc884788e7b46ce0e1f15, type: 3}
+  goalPrefab: {fileID: 8882373087341473763, guid: e25c7b3d6264cef4f9073c4163bd46e9, type: 3}
